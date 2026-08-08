@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sell Your Home in 90 Days | McKayla Jodon – Real of Ohio</title>
+<title>Sell Your Home in 60 Days | McKayla Jodon – Real of Ohio</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --dark: #1A2E1A; --green: #5A8A4A; --light-green: #A8D48A;
-    --pale: #F2F7EF; --sand: #D8EDD0; --pink: #FF1493;
-    --white: #FFFFFF; --gray: #6B7B6B; --cream: #FDF8F3;
+    --dark: #2B2321; --green: #8C3358; --light-green: #E8A9C1;
+    --pale: #FBF7F5; --sand: #F4E3E9; --pink: #C2477A;
+    --white: #FFFFFF; --gray: #6B6560; --cream: #FBF7F5;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -27,8 +27,8 @@
   .hero { background: var(--dark); min-height: 90vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; }
   .hero::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--pink); }
   .hblob { position: absolute; border-radius: 50%; pointer-events: none; }
-  .hb1 { width: 500px; height: 500px; top: -150px; right: -80px; background: rgba(90,138,74,0.1); }
-  .hb2 { width: 280px; height: 280px; bottom: -60px; left: -60px; background: rgba(255,20,147,0.07); }
+  .hb1 { width: 500px; height: 500px; top: -150px; right: -80px; background: rgba(140,51,88,0.1); }
+  .hb2 { width: 280px; height: 280px; bottom: -60px; left: -60px; background: rgba(194,71,122,0.07); }
 
   .hero-left { display: flex; flex-direction: column; justify-content: center; padding: 80px 56px 80px 80px; position: relative; z-index: 2; }
   .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: var(--light-green); margin-bottom: 24px; display: flex; align-items: center; gap: 12px; }
@@ -44,7 +44,7 @@
 
   .hero-right { display: flex; align-items: center; justify-content: center; padding: 80px; position: relative; z-index: 2; }
   .hero-card { background: var(--white); padding: 48px 44px; width: 100%; max-width: 440px; box-shadow: 0 32px 80px rgba(0,0,0,0.35); position: relative; }
-  .hero-card::before { content: ''; position: absolute; top: -8px; left: -8px; right: 8px; bottom: 8px; border: 1px solid rgba(168,212,138,0.2); pointer-events: none; }
+  .hero-card::before { content: ''; position: absolute; top: -8px; left: -8px; right: 8px; bottom: 8px; border: 1px solid rgba(232,169,193,0.2); pointer-events: none; }
   .card-tag { font-size: 11px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--pink); margin-bottom: 18px; }
   .hero-card h2 { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; color: var(--dark); margin-bottom: 8px; }
   .hero-card p { font-size: 14px; color: var(--gray); margin-bottom: 28px; line-height: 1.6; font-weight: 300; }
@@ -92,7 +92,7 @@
   .ci:hover { background: #FAFFF8; }
   .ci.done { border-left-color: var(--green); background: #FAFFF8; }
   .ci.done .ci-label { text-decoration: line-through; color: var(--gray); }
-  .cbox { width: 22px; height: 22px; border: 2px solid #C8D8C8; border-radius: 4px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; transition: all 0.15s; }
+  .cbox { width: 22px; height: 22px; border: 2px solid #E8D3DA; border-radius: 4px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; transition: all 0.15s; }
   .ci.done .cbox { background: var(--green); border-color: var(--green); }
   .cbox svg { display: none; }
   .ci.done .cbox svg { display: block; }
@@ -192,7 +192,7 @@
   .cta-btn.secondary { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.15); }
 
   /* FOOTER */
-  footer { background: #0D1A0D; padding: 36px 80px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+  footer { background: #2B2321; padding: 36px 80px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
   .footer-brand { display: flex; align-items: center; gap: 14px; }
   .footer-brand img { height: 32px; width: auto; }
   .footer-brand span { font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 0.12em; font-weight: 300; }
@@ -201,7 +201,7 @@
   .footer-links a:hover { color: var(--light-green); }
 
   /* SUCCESS */
-  .success-overlay { display: none; position: fixed; inset: 0; background: rgba(26,46,26,0.88); z-index: 999; align-items: center; justify-content: center; backdrop-filter: blur(4px); }
+  .success-overlay { display: none; position: fixed; inset: 0; background: rgba(43,35,33,0.88); z-index: 999; align-items: center; justify-content: center; backdrop-filter: blur(4px); }
   .success-overlay.show { display: flex; }
   .success-box { background: var(--white); padding: 60px 52px; max-width: 460px; width: 90%; text-align: center; animation: popIn 0.35s cubic-bezier(0.175,0.885,0.32,1.275); }
   @keyframes popIn { from { opacity:0; transform:scale(0.9) translateY(20px); } to { opacity:1; transform:scale(1) translateY(0); } }
@@ -253,7 +253,7 @@
   <div class="hero-left">
     <div class="eyebrow">The McKayla Method · Central & Northeast Ohio</div>
     <h1>Sell your home in</h1>
-    <div class="big-90">90</div>
+    <div class="big-90">60</div>
     <div class="big-days">days.</div>
     <p class="hero-sub">I don't list your house and disappear. I <strong>show up, walk through it, stage it, photograph it professionally, get drone footage, and market it everywhere</strong> until it sells. That's what separates results from excuses.</p>
     <a href="#hero-form" class="hero-btn">
@@ -317,7 +317,7 @@
   <button class="nav-tab active" onclick="showTab('checklist',this)">Seller Checklist</button>
   <button class="nav-tab" onclick="showTab('boosters',this)">Value Boosters</button>
   <button class="nav-tab" onclick="showTab('mckayla',this)">What I Do For You</button>
-  <button class="nav-tab" onclick="showTab('timeline',this)">90-Day Timeline</button>
+  <button class="nav-tab" onclick="showTab('timeline',this)">60-Day Timeline</button>
 </div>
 
 <!-- SELLER CHECKLIST -->
@@ -364,7 +364,7 @@
   <!-- PHASE 3 -->
   <div class="phase-header">
     <div class="phase-num dark">3</div>
-    <div><div class="phase-title">Active on Market — Your Role</div><div class="phase-sub">Weeks 3–10 · While McKayla markets, here's what you do</div></div>
+    <div><div class="phase-title">Active on Market — Your Role</div><div class="phase-sub">Weeks 3–6 · While McKayla markets, here's what you do</div></div>
   </div>
   <div class="check-list fade-up">
     <div class="ci" onclick="tc(this)"><div class="cbox"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><div class="ci-content"><div class="ci-label">Keep the home show-ready at all times</div><div class="ci-note">Dishes done, beds made, floors vacuumed, bathrooms clean, pets secured. Every showing is a potential offer — treat it that way.</div><span class="ci-impact high">🔥 Critical</span></div></div>
@@ -377,7 +377,7 @@
   <!-- PHASE 4 -->
   <div class="phase-header">
     <div class="phase-num gold">4</div>
-    <div><div class="phase-title">Under Contract to Close</div><div class="phase-sub">Weeks 8–12 · The finish line</div></div>
+    <div><div class="phase-title">Under Contract to Close</div><div class="phase-sub">Weeks 6–8 · The finish line</div></div>
   </div>
   <div class="check-list fade-up">
     <div class="ci" onclick="tc(this)"><div class="cbox"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><div class="ci-content"><div class="ci-label">Allow home inspector full access</div><div class="ci-note">Be out of the house during inspection. Have all utilities on and access to all areas including attic, basement, and outbuildings.</div><span class="ci-impact req">Required</span></div></div>
@@ -643,11 +643,11 @@
   </div>
 </div>
 
-<!-- 90-DAY TIMELINE -->
+<!-- 60-DAY TIMELINE -->
 <div class="section" id="timeline">
   <div class="sec-tag">The Full Picture</div>
-  <h2 class="sec-h2">Your 90-day path <em>to closing.</em></h2>
-  <p class="sec-p">Here's exactly what the next 90 days look like from our first conversation to keys handed over. Every step. Every milestone. No surprises.</p>
+  <h2 class="sec-h2">Your 60-day path <em>to closing.</em></h2>
+  <p class="sec-p">Here's exactly what the next 60 days look like from our first conversation to keys handed over. Every step. Every milestone. No surprises.</p>
 
   <div class="timeline fade-up">
 
@@ -699,7 +699,7 @@
     <div class="tl-step">
       <div class="tl-dot pink">4</div>
       <div class="tl-body">
-        <div class="tl-week pink">Weeks 3–7 — Active Showings</div>
+        <div class="tl-week pink">Weeks 3–5 — Active Showings</div>
         <h3>Showings, Feedback & Adjustments</h3>
         <p>I collect showing feedback from every buyer's agent and share it with you. If patterns emerge — price, condition, staging — we address them immediately. I stay aggressive on marketing and keep your listing fresh in the market's mind.</p>
         <ul class="tl-items">
@@ -714,7 +714,7 @@
     <div class="tl-step">
       <div class="tl-dot gold">5</div>
       <div class="tl-body">
-        <div class="tl-week gold">Week 6–8 — Offer Received</div>
+        <div class="tl-week gold">Week 5–6 — Offer Received</div>
         <h3>Negotiate, Accept, Go Under Contract</h3>
         <p>An offer comes in. I present every term clearly, give you my honest recommendation, and negotiate on your behalf. Once we accept — we're under contract and the finish line is in sight.</p>
         <ul class="tl-items">
@@ -729,7 +729,7 @@
     <div class="tl-step">
       <div class="tl-dot green">6</div>
       <div class="tl-body">
-        <div class="tl-week green">Weeks 8–11 — Under Contract</div>
+        <div class="tl-week green">Weeks 6–7 — Under Contract</div>
         <h3>Inspection, Appraisal & Closing Prep</h3>
         <p>Home inspection happens, appraisal is ordered by the buyer's lender, and the title search begins. I manage communication between all parties so you're never left wondering what's happening or who to call.</p>
         <ul class="tl-items">
@@ -744,7 +744,7 @@
     <div class="tl-step">
       <div class="tl-dot pink">7</div>
       <div class="tl-body">
-        <div class="tl-week pink">Week 12 — Closing Day 🎉</div>
+        <div class="tl-week pink">Week 8 — Closing Day 🎉</div>
         <h3>Sign, Celebrate & Get Paid</h3>
         <p>Closing day. You sign the documents, the title transfers, and you walk away with your proceeds. I'll be there to walk you through the settlement statement so you understand every number. Then we celebrate — because you just sold your home.</p>
         <ul class="tl-items">
@@ -762,7 +762,7 @@
 <!-- CTA -->
 <div class="cta-band">
   <h2>Ready to sell?<br><em>Let's make it happen.</em></h2>
-  <p>Book your free in-home walkthrough and I'll give you an honest price, a real plan, and everything you need to sell in 90 days.</p>
+  <p>Book your free in-home walkthrough and I'll give you an honest price, a real plan, and everything you need to sell in 60 days.</p>
   <div class="cta-btns">
     <a href="#hero-form" class="cta-btn primary">Book My Free Walkthrough →</a>
     <a href="https://1adykay.github.io" class="cta-btn secondary">Back to Hub</a>
@@ -829,7 +829,7 @@
       address: document.getElementById('h-address').value.trim() || 'Not provided',
       timeline: document.getElementById('h-timeline').value || 'Not specified',
       area: document.getElementById('h-type').value || 'Not specified',
-      budget: 'Sell in 90 Days Page'
+      budget: 'Sell in 60 Days Page'
     };
     Promise.all([
       emailjs.send('service_i51zgrp', 'template_6d99f1x', params),
